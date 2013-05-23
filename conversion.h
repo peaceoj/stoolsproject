@@ -4,13 +4,9 @@
 class input
 {
   public:
-        float i;
-
-
+  float i;
 
 };
-
-
 
   class length:public input
   {
