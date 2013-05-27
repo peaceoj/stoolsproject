@@ -1,6 +1,5 @@
-#ifndef TOOLS_H_
-#define TOOLS_H_
-
+#ifndef CONVERSION_H_
+#define CONVERSION_H_
 
 class input
 	{
@@ -100,4 +99,4 @@ class weight:public input
    };		
 		
 		
-#endif //TOOLS_H_
+#endif //CONVERSION_H_
