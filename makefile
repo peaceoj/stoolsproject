@@ -5,7 +5,6 @@ BINNAME=program
 
 all: ${BINNAME}
 
-
 program: main.o conversion.o
 	g++ $+ -o ${BINNAME}
 
