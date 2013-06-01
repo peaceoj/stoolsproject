@@ -13,83 +13,84 @@ int main()
       
     while(true)
     {
-        cout<<"\t\t\tWELCOME TO UNIT CONVERTION\n";
-        cout<<"\n      TYPE"<<"\n     ------";
-        cout<<"\n  1: Length\n" << "  2: Temparature\n"<<"  3: Weight\n"<<"  4: Area\n"<<"  5: Volume\n" <<"  6: Exit\n";
-        cout<<"\n\nPlease choose your Convertion Type:" ;
-        cin>>x;
+	        cout<<"\t\t\tWELCOME TO UNIT CONVERTION\n";
+	        cout<<"\n      TYPE"<<"\n     ------";
+	        cout<<"\n  1: Length\n" << "  2: Temparature\n"<<"  3: Weight\n"<<"  4: Area\n"<<"  5: Volume\n" <<"  6: Exit\n";
+	        cout<<"\n\nPlease choose your Convertion Type:" ;
+	        cin>>x;
 		
-        if(x==1)
-        {         
-            cout<<"\n\n choose your unit convertion:\n";
-            cout<<"\n  1 : mm-m";
-            cout<<"\n  2 : m-mm";
-            cout<<"\n  3 : cm-m";
-            cout<<"\n  4 : m-cm";
-            cout<<"\n  5 : cm_km";
-            cout<<"\n  6 : km-cm";
-            cout<<"\n  7 : m-mile";
-            cout<<"\n  8 : mile-m";
-            cout<<"\n  9 : km-mile";
-            cout<<"\n 10 : mile-km";
-            cout<<"\n 11 : feet-m";
-            cout<<"\n 12 : m-feet";
-            cout<<"\n 13 : inch-m";
-            cout<<"\n 14 : m-inch";
-            cout<<"\n 15 : yard-m";
-            cout<<"\n 16 : m-yard";
-            cout<<"\n 17 : Back to The Main Menu";
-         while(true)
-            {
-               cout<<"\n\n Please Enter Your Choice= ";
-               cin>>y;
-                if (y==1)
-                    { b.mm_m(); }
-                else if(y==2)
-                    { b.m_mm(); }
-                else if (y==3)
-                    { b.cm_m(); }
-                else if (y==4)
-                    { b.m_cm(); }
-                else if (y==5)
-                    { b.cm_km(); }
-                else if (y==6)
-                    {  b.km_cm(); }
-                else if (y==7)
-                    {  b.m_mile(); }
-                else if (y==8)
-                    {   b.mile_m(); }
-                else if (y==9)
-                     {   b.km_mile(); }
-                else if (y==10)
-                    {  b.mile_km(); }
-                else if (y==11)
-                     {  b.feet_m(); }
-                else if (y==12)
-                     { b.m_feet(); }
-                 else if (y==13)
-                      { b.inch_m();}
-                else if(y==14)
-                    { b.m_inch();}
-                else if (y==15)
-                    {b.yard_m();}
+       if(x==1)
+       {         
+	            cout<<"\n\n choose your unit convertion:\n";
+	            cout<<"\n  1 : mm-m";
+	            cout<<"\n  2 : m-mm";
+	            cout<<"\n  3 : cm-m";
+	            cout<<"\n  4 : m-cm";
+	            cout<<"\n  5 : cm_km";
+	            cout<<"\n  6 : km-cm";
+	            cout<<"\n  7 : m-mile";
+	            cout<<"\n  8 : mile-m";
+	            cout<<"\n  9 : km-mile";
+	            cout<<"\n 10 : mile-km";
+	            cout<<"\n 11 : feet-m";
+	            cout<<"\n 12 : m-feet";
+	            cout<<"\n 13 : inch-m";
+	            cout<<"\n 14 : m-inch";
+	            cout<<"\n 15 : yard-m";
+	            cout<<"\n 16 : m-yard";
+	            cout<<"\n 17 : Back to The Main Menu";
+            
+	           while(true)
+	            {
+		               cout<<"\n\n Please Enter Your Choice= ";
+		               cin>>y;
+		                if (y==1)
+		                    { b.mm_m(); }
+		                else if(y==2)
+		                    { b.m_mm(); }
+		                else if (y==3)
+		                    { b.cm_m(); }
+		                else if (y==4)
+		                    { b.m_cm(); }
+		                else if (y==5)
+		                    { b.cm_km(); }
+		                else if (y==6)
+		                    {  b.km_cm(); }
+		                else if (y==7)
+		                    {  b.m_mile(); }
+		                else if (y==8)
+		                    {   b.mile_m(); }
+		                else if (y==9)
+		                     {   b.km_mile(); }
+		                else if (y==10)
+		                    {  b.mile_km(); }
+		                else if (y==11)
+		                     {  b.feet_m(); }
+		                else if (y==12)
+		                     { b.m_feet(); }
+		                 else if (y==13)
+		                      { b.inch_m();}
+		                else if(y==14)
+		                    { b.m_inch();}
+		                else if (y==15)
+		                    {b.yard_m();}
 				else if (y==16)
-                    {b.m_yard();}
+		                    {b.m_yard();}
 				else if (y==17)
-                    {break;}
-           }
-        }
+	                    		{break;}
+	            }
+       }
 		
         else if(x==2)
-        {  
-            cout<<"\n\n choose your unit convertion:\n";
-            cout<<"\n  1: Celsius-Fahrenheit";
-            cout<<"\n  2: Fahrenheit-Celsius";
-            cout<<"\n  3: Celsius-Kelvin";
-            cout<<"\n  4: Kelvin-Celcius";
-            cout<<"\n  5: Back to The Main Menu";
-			while(true)
-			{
+          {  
+	            cout<<"\n\n choose your unit convertion:\n";
+	            cout<<"\n  1: Celsius-Fahrenheit";
+	            cout<<"\n  2: Fahrenheit-Celsius";
+	            cout<<"\n  3: Celsius-Kelvin";
+	            cout<<"\n  4: Kelvin-Celcius";
+	            cout<<"\n  5: Back to The Main Menu";
+		     while(true)
+		      {
 				cout<<"\n\n Please Enter Your Choice= ";
 				cin>>y;
 				if(y==1)
@@ -102,12 +103,12 @@ int main()
 					{f.k_cel();}
 				else if(y==5)
 					{break;}
-			}
-        }
+		      }
+          }
             
-		else if(x==3)
-        {               
-			cout<<"\n\nchoose your unit convertion :\n";
+	else if(x==3)
+            {               
+			cout<<"\n\nChoose your unit convertion :\n";
 			cout<<"\n  1: Milligm-Gramm";
 			cout<<"\n  2: Gramm-milligm";
 			cout<<"\n  3: Gramm-killogram";
@@ -150,122 +151,122 @@ int main()
 		
         else if(x==4)
         {            
-			cout<<"\n\nchoose your unit convertion:\n";
-            cout<<"\n   1: Square mm-Square cm";
-            cout<<"\n   2: square cm-Square mm";
-            cout<<"\n   3: square cm-square m";
-            cout<<"\n   4: Square m-Square cm";
-            cout<<"\n   5: Square m-Square km";
-            cout<<"\n   6: Square km-Square m";
-            cout<<"\n   7: Square feet-Square m";
-            cout<<"\n   8: Square m-Square feet";
-            cout<<"\n   9: Square Yard-Square m";
-            cout<<"\n  10: Square m-Square yard";
-            cout<<"\n  11: Square mile-Square km";
-            cout<<"\n  12: Square km-Square mile";
-            cout<<"\n  13: Acre-Hectare";
-            cout<<"\n  14: Hectare-Acre";
-            cout<<"\n  15: Square km-Acre ";
-            cout<<"\n  16: Acre-Square km";
-            cout<<"\n  17: Back to The Main Menu";
-            while(true)
-            {
-				cout<<"\n\nPlease Enter Your Choice= ";
-				cin>>y;
-                if(y==1)
-					{e.mmSq_cmSq();}
-                else if(y==2)
-					{e.cmSq_mmSq();}
-                else if(y==3)
-					{e.cmSq_mSq();}
-                else if(y==4)
-					{e.mSq_cmSq();}
-                else if(y==5)
-					{e.mSq_kmSq();}
-                else if(y==6)
-					{e.kmSq_mSq();}
-                else if(y==7)
-					{e.feetSq_mSq();}
-                else if(y==8)
-					{e.mSq_feetSq();}
-                else if(y==9)
-					{e.yardSq_mSq();}
-                else if(y==10)
-					{e.mSq_yardSq();}
-                else if(y==11)
-					{e.mileSq_kmSq();}
-                else if(y==12)
-					{e.kmSq_mileSq();}
-                else if(y==13)
-					{e.acre_hect();}
-                else if(y==14)
-					{e.hect_acre();}
-                else if(y==15)
-					{e.kmSq_acre();}
-                else if(y==16)
-					{e.acre_kmSq();}
-                else if(y==17)
-					{break;}
-            }
+		    cout<<"\n\nChoose your unit convertion:\n";
+	            cout<<"\n   1: Square mm-Square cm";
+	            cout<<"\n   2: square cm-Square mm";
+	            cout<<"\n   3: square cm-square m";
+	            cout<<"\n   4: Square m-Square cm";
+	            cout<<"\n   5: Square m-Square km";
+	            cout<<"\n   6: Square km-Square m";
+	            cout<<"\n   7: Square feet-Square m";
+	            cout<<"\n   8: Square m-Square feet";
+	            cout<<"\n   9: Square Yard-Square m";
+	            cout<<"\n  10: Square m-Square yard";
+	            cout<<"\n  11: Square mile-Square km";
+	            cout<<"\n  12: Square km-Square mile";
+	            cout<<"\n  13: Acre-Hectare";
+	            cout<<"\n  14: Hectare-Acre";
+	            cout<<"\n  15: Square km-Acre ";
+	            cout<<"\n  16: Acre-Square km";
+	            cout<<"\n  17: Back to The Main Menu";
+	            while(true)
+	            {
+			cout<<"\n\nPlease Enter Your Choice= ";
+			cin>>y;
+	                if(y==1)
+				{e.mmSq_cmSq();}
+	                else if(y==2)
+				{e.cmSq_mmSq();}
+	                else if(y==3)
+				{e.cmSq_mSq();}
+	                else if(y==4)
+				{e.mSq_cmSq();}
+	                else if(y==5)
+				{e.mSq_kmSq();}
+	                else if(y==6)
+				{e.kmSq_mSq();}
+	                else if(y==7)
+				{e.feetSq_mSq();}
+	                else if(y==8)
+				{e.mSq_feetSq();}
+	                else if(y==9)
+				{e.yardSq_mSq();}
+	                else if(y==10)
+				{e.mSq_yardSq();}
+	                else if(y==11)
+				{e.mileSq_kmSq();}
+	                else if(y==12)
+				{e.kmSq_mileSq();}
+	                else if(y==13)
+				{e.acre_hect();}
+	                else if(y==14)
+				{e.hect_acre();}
+	                else if(y==15)
+				{e.kmSq_acre();}
+	                else if(y==16)
+				{e.acre_kmSq();}
+	                else if(y==17)
+				{break;}
+	            }
         }
 		
         else if(x==5)
         {         
-            cout<<"\n\nchoose your unit convertion:\n";
-            cout<<"\n   1 : ml-Litre";
-            cout<<"\n   2 : Litre-ml";
-            cout<<"\n   3 : Cubic mm-Cubic cm";
-            cout<<"\n   4 : Cubic cm-Cubic mm";
-            cout<<"\n   5 : Cubic cm-Cubic m";
-            cout<<"\n   6 : Cubic m-Cubic cm";
-            cout<<"\n   7 : Cubic Inch-Cubic m";
-            cout<<"\n   8 : Cubic m-Cubic Inch";
-            cout<<"\n   9 : Cubic feet-Cubic m";
-            cout<<"\n  10 : Cubic m-Cubic feet";
-            cout<<"\n  11 : Cubic m-Gallon (uk)";
-            cout<<"\n  12 : Gallon-Cubic m";
-            cout<<"\n  13 : Litre-Gallon";
-            cout<<"\n  14 : Gallon-Litre";
-            cout<<"\n  15 : Back to The Main Menu";
-            while(true)
-            {
-				cout<<"\n\nPlease Enter Your Choice= ";
-                cin>>y;
-                if (y==1)
-					{d.mL_L();}
-				else if (y==2)
-					{d.L_mL();}
-				else if (y==3)
-					{d.mmQ_cmQ();}
-				else if (y==4)
-					{d.cmQ_mmQ();}
-				else if (y==5)
-					{d.cmQ_mQ();}
-				else if (y==6)
-					{d.mQ_cmQ();}
-				else if (y==7)
-					{d.inchQ_mQ();}
-				else if (y==8)
-					{d.mQ_inchQ();}
-				else if (y==9)
-					{d.feetQ_mQ();}
-				else if (y==10)
-					{d.mQ_feetQ();}
-				else if (y==11)
-					{d.mQ_gallon();}
-				else if (y==12)
-					{d.gallon_mQ();}
-				else if (y==13)
-					{d.L_gallon();}
-				else if(y==14)
-					{d.gallon_L();}
-				else if(y==15)
-					{break;}
-           }
+	            cout<<"\n\nChoose your unit convertion:\n";
+	            cout<<"\n   1 : ml-Litre";
+	            cout<<"\n   2 : Litre-ml";
+	            cout<<"\n   3 : Cubic mm-Cubic cm";
+	            cout<<"\n   4 : Cubic cm-Cubic mm";
+	            cout<<"\n   5 : Cubic cm-Cubic m";
+	            cout<<"\n   6 : Cubic m-Cubic cm";
+	            cout<<"\n   7 : Cubic Inch-Cubic m";
+	            cout<<"\n   8 : Cubic m-Cubic Inch";
+	            cout<<"\n   9 : Cubic feet-Cubic m";
+	            cout<<"\n  10 : Cubic m-Cubic feet";
+	            cout<<"\n  11 : Cubic m-Gallon (uk)";
+	            cout<<"\n  12 : Gallon-Cubic m";
+	            cout<<"\n  13 : Litre-Gallon";
+	            cout<<"\n  14 : Gallon-Litre";
+	            cout<<"\n  15 : Back to The Main Menu";
+	            while(true)
+	            {
+			cout<<"\n\nPlease Enter Your Choice= ";
+	                cin>>y;
+	                if (y==1)
+			  {d.mL_L();}
+			else if (y==2)
+			 	{d.L_mL();}
+			else if (y==3)
+				{d.mmQ_cmQ();}
+			else if (y==4)
+				{d.cmQ_mmQ();}
+			else if (y==5)
+				{d.cmQ_mQ();}
+			else if (y==6)
+				{d.mQ_cmQ();}
+			else if (y==7)
+				{d.inchQ_mQ();}
+			else if (y==8)
+				{d.mQ_inchQ();}
+			else if (y==9)
+				{d.feetQ_mQ();}
+			else if (y==10)
+				{d.mQ_feetQ();}
+			else if (y==11)
+				{d.mQ_gallon();}
+			else if (y==12)
+				{d.gallon_mQ();}
+			else if (y==13)
+				{d.L_gallon();}
+			else if(y==14)
+				{d.gallon_L();}
+			else if(y==15)
+				{break;}
+	            }
         }
 
-        else if(x==6)
-			{ break;}
+      else if(x==6)
+	  { break;}
     }
 /*END OF CODE*/
 }
