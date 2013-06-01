@@ -10,7 +10,7 @@ int main()
     area e;
     temp f;
     int x,y;
-       ///*textcolor(0);       //textbackground(99);       //lo*/wvideo();
+      
     while(true)
     {
         cout<<"\t\t\tWELCOME TO UNIT CONVERTION\n";
@@ -266,8 +266,6 @@ int main()
 
         else if(x==6)
 			{ break;}
-
     }
 /*END OF CODE*/
-
 }
