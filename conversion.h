@@ -10,13 +10,13 @@ class input
 class length:public input
 	{
 		public:
-			void mm_m();
-			void m_mm();
-			void cm_m();
-			void m_cm();
-			void cm_km();
-			void km_cm();
-			void m_mile();
+		   void mm_m();
+		   void m_mm();
+		   void cm_m();
+		   void m_cm();
+		   void cm_km();
+		   void km_cm();
+		   void m_mile();
 		   void mile_m();
 		   void km_mile();
 		   void mile_km();
@@ -32,12 +32,12 @@ class length:public input
 class temp:public input
 	{
 		public:
-			void cel_f();
-			void f_cel();
-			void cel_k();
-			void k_cel();
-			void f_k();
-			void k_f();
+		   void cel_f();
+		   void f_cel();
+		   void cel_k();
+		   void k_cel();
+	           void f_k();
+		   void k_f();
 
 	};
 
